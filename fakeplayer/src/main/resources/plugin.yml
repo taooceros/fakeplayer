@@ -2,7 +2,7 @@ main: io.github.portlek.fakeplayer.FakePlayer
 name: ${project.name}
 version: ${project.version}
 description: ${project.description}
-api-version: '1.13'
+api-version: "1.13"
 authors:
   - portlek
 commands:
@@ -28,14 +28,13 @@ permissions:
       fakeplayer.command.version: true
       fakeplayer.command.menu: true
   fakeplayer.version:
-    description: It allows you to notify if there is new update for the plugin on
-      join.
+    description: It allows you to notify if there is new update for the plugin on join.
   fakeplayer.command.main:
     description: It allows you to use to /fakeplayer command.
-    default: 'true'
+    default: true
   fakeplayer.command.help:
     description: It allows you to use to /fakeplayer help command.
-    default: 'true'
+    default: true
   fakeplayer.command.reload:
     description: It allows you to use to /fakeplayer reload command.
   fakeplayer.command.version:
