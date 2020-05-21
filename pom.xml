@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.infumia.fakeplayer</groupId>
+    <groupId>io.github.portlek.fakeplayer</groupId>
     <artifactId>parent</artifactId>
-    <version>1.3</version>
+    <version>1.5</version>
     <packaging>pom</packaging>
     <modules>
         <module>nms</module>
@@ -19,8 +19,6 @@
             <id>portlek</id>
             <name>Hasan Demirtaş</name>
             <url>https://github.com/portlek</url>
-            <organization>Infumia</organization>
-            <organizationUrl>https://infumia.com.tr</organizationUrl>
             <roles>
                 <role>LeadDeveloper</role>
                 <role>Architect</role>
